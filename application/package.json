@@ -1,0 +1,31 @@
+{
+    "name": "web-app-react",
+    "version": "1.0.0",
+    "private": true,
+    "engines": {
+        "yarn": "^1.0.0",
+        "npm": "forbidden, use yarn"
+    },
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "cross-env": "^7.0.3",
+        "next": "^13.4.7",
+        "postcss": "^8.4.24",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+        "@types/node": "18.16.16",
+        "@types/react": "18.2.0",
+        "husky": "^8.0.2",
+        "postcss-styled-syntax": "^0.4.0",
+        "postcss-syntax": "^0.36.2",
+        "ts-node": "^10.9.1",
+        "typescript": "5.0.4"
+    }
+}
